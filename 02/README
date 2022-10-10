@@ -1,0 +1,22 @@
+file list in folder 02/
+ - Conversion.C
+ - Conversion.f90
+ - Sum.c
+ - Sum.f90
+
+Conversion.C
+  To commandlines to compile and run
+  $ gcc -o ./ConversionC ./Conversion.c -lm
+  $ ./ConversionC
+  
+  Tips:
+   - different numbers were tested
+   - the sequence of the converted digits has been reversed for the correct order.
+
+Sum.c
+  To commandlines to compile and run
+  $ gcc -o ./SumC ./Sum.c
+  $ ./SumC
+  
+You may skipped the Fortran files.
+

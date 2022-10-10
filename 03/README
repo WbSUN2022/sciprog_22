@@ -1,0 +1,12 @@
+file list in folder 03/
+ - integral.f90
+
+integral.f90
+  The commandlines to compile and run
+  $ gfortran -o integraf90 ./integral.f90
+  $ ./integraf90
+  
+  the output at my run:
+   The division number N=   12
+   log(2)=  0.693147 vs. numerical integration=  0.695045
+

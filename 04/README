@@ -1,0 +1,11 @@
+file list in folder 04/
+ - pracFour.c
+
+pracFour.c
+  The commandlines to compile and run
+  $ gcc -o ./pracFour ./pracFour.c -lm
+  $ ./pracFour
+  
+  the output at my run:
+   the calculated area= 0.695045
+
