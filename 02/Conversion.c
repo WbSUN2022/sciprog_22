@@ -36,7 +36,8 @@ int main(void) {
    int n = i-1;
    int im = floor(i/2.);
    char c;
-   for(int j=0;j<im;j++){
+   int j;
+   for(j=0;j<im;j++){
       c = binnum[j];
       binnum[j]=binnum[n-j];
       binnum[n-j]=c;
