@@ -1,0 +1,19 @@
+file list in folder 05/
+ - Fibonarcci.f90
+ - HyperbolicTang.f90
+
+Fibonarcci.f90
+  The commandlines to compile and run
+  $ gfortran -o Fibonarcci ./Fibonarcci.f90
+  $ ./Fibonarcci
+  
+  
+  There are six numbers at most written to each line
+  
+HyperbolicTang.f90
+  The commandlines to compile and run
+  $ gfortran -o HyperbolicTang ./HyperbolicTang.f90
+  $ ./HyperbolicTang
+  
+  x is increased by 0.01 as required in the practical05 document
+
