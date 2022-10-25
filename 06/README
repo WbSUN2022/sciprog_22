@@ -1,0 +1,38 @@
+File list in folder 06/
+ - main.f90
+ - matmul.f90
+ - Makefile
+ - MatmulSingleFile.f90
+
+MatmulSingleFile.f90
+  Single file to do the matrix multiplication and printing job
+  The commandlines to compile and run
+  $ gfortran -o MatmulSingleFile ./MatmulSingleFile.f90
+  $ ./MatmulSingleFile
+  the printed result to screen reads
+matrix a is
+    2.00    3.00    4.00
+    3.00    4.00    5.00
+    4.00    5.00    6.00
+    5.00    6.00    7.00
+    6.00    7.00    8.00
+matrix b is
+    0.00   -1.00   -2.00   -3.00
+    1.00    0.00   -1.00   -2.00
+    2.00    1.00    0.00   -1.00
+matrix c is
+   11.00    2.00   -7.00  -16.00
+   14.00    2.00  -10.00  -22.00
+   17.00    2.00  -13.00  -28.00
+   20.00    2.00  -16.00  -34.00
+   23.00    2.00  -19.00  -40.00
+
+
+  
+main.f90, matmul.f90, Makefile
+  are files used to generate the same result but using Makefile and put module in a separated file
+  The commandlines to compile and run
+  $ make all
+  $ ./matmultiple
+  the output is the same as above one.
+
