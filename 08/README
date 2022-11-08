@@ -1,0 +1,21 @@
+File list in folder 08/
+ - gcditer.f90
+ - gcdrecurs.f90
+
+both have been compiled and executed in sciprog VM.
+
+gcditer.f90
+  The commandlines to compile and run
+  $ gfortran -o gcditer ./gcditer.f90
+  $ ./gcditer
+  
+  Greatest common divisor of 24 and 16 is 8
+  
+gcdrecurs.f90
+  The commandlines to compile and run
+  $ gcc -o gcdrecurs ./gcdrecurs.f90
+  $ ./gcdrecurs
+  
+  Greatest common divisor of 24 and 16 is 8
+
+
