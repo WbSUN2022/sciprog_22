@@ -1,0 +1,26 @@
+File list in folder 10/
+ - hanoi.f90
+
+The programs have been compiled and executed in sciprog VM.
+
+The commenting lines in main.f90 have been copied and pasted here
+
+! this program gives the move operation sequence in Hanoi problem
+! It allows user to specify the number of disks
+!
+! build command:
+! $ gfortran -o hanoi ./hanoi.f90
+!
+! run command:
+! $./hanoi
+!
+! following lines are test run result:
+!Enter the disk number:
+!3
+!move disc 1 from 1 to 3
+!move disc 2 from 1 to 2
+!move disc 1 from 3 to 2
+!move disc 3 from 1 to 3
+!move disc 1 from 2 to 1
+!move disc 2 from 2 to 3
+!move disc 1 from 1 to 3
