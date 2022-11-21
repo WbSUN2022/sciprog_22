@@ -1,0 +1,31 @@
+File list in folder 09/
+ - file_read.f90
+ - magic_square.f90
+ - main.f90
+ - matrix.txt
+
+The programs have been compiled and executed in sciprog VM.
+
+The commenting lines in main.f90 have been copied and pasted here
+
+! This program is to read a matrix from a file, and decide if it is a magic-square matrix
+!
+! Three files are required in compilation:
+!    magic_square.f90, file_read.f90, main.f90
+!
+! Build command:
+! $ gfortran -o magicSquare magic_square.f90 file_read.f90 main.f90
+!
+! Before executing the program, the file with a matrix has to be prepared.
+! For example, a sample file with its name "matrix.txt" and the stored matrix in it
+! 1  1
+! 1  1
+!
+! Run command:
+! $ ./magicSquare
+! user will be asked to enter the name of the file where the matrix is stored,
+! then the program will read in the matrix from the file and decide if the matrix is a magicsquare one
+! 
+! the read-in matrix will be printed on screen for improved visibility
+
+
